@@ -1,0 +1,33 @@
+{
+  "name": "wallmart-sample-project",
+  "version": "1.0.0",
+  "description": "Implement a Hapi API endpoint that proxies Walmart.com.  When a request is made to the endpoint all request details should be passed through to Walmart.com and the response from Walmart.com should be sent back in the response from Hapi",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PadamSandhu/proxie.git"
+  },
+  "keywords": [
+    "wallmart",
+    "git",
+    "proxi"
+  ],
+  "author": "Padam Sandhu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PadamSandhu/proxie/issues"
+  },
+  "homepage": "https://github.com/PadamSandhu/proxie#readme",
+  "dependencies": {
+    "@hapi/h2o2": "^8.3.0",
+    "@hapi/hapi": "^18.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
